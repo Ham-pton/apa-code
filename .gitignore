@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *.pyd
-*.so
 .pytest_cache/
 .ipynb_checkpoints/
 
@@ -31,8 +30,12 @@ outputs/
 *.ckpt
 *.bin
 
-# Local dataset and extracted features
+# Ignore processed feature files
 data/seq_data_librispeech/*.npy
+
+# Keep HuPER features
+!data/seq_data_librispeech/tr_huper_feat.npy
+!data/seq_data_librispeech/te_huper_feat.npy
 
 # Keep data instructions
 !data/README.md
@@ -47,8 +50,3 @@ data/seq_data_librispeech/*.npy
 Thumbs.db
 Desktop.ini
 .DS_Store
-
-# Packaging files
-build/
-dist/
-*.egg-info/
