@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Virtual environments
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# Training outputs
+exp/
+logs/
+runs/
+wandb/
+checkpoints/
+outputs/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Local dataset and extracted features
+data/seq_data_librispeech/*.npy
+
+# Keep data instructions
+!data/README.md
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Packaging files
+build/
+dist/
+*.egg-info/
