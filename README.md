@@ -227,11 +227,11 @@ exp/
 For example:
 
 ```text
-exp/full_model_duration_seed0
-exp/full_model_duration_seed1
-exp/full_model_duration_seed2
-exp/full_model_duration_seed3
-exp/full_model_duration_seed4
+exp/full_seed0
+exp/full_seed1
+exp/full_seed2
+exp/full_seed3
+exp/full_seed4
 ```
 
 ## Output

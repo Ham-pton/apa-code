@@ -6,7 +6,7 @@ cd /d "%~dp0"
 set "PYTHON=E:\Anaconda\envs\pytorch\python.exe"
 set "TRAIN=train_clean.py"
 set "DATA_DIR=data\seq_data_librispeech"
-set "EXP_BASE=..\exp\full_model_duration"
+set "EXP_BASE=..\exp\full"
 
 if not exist "%PYTHON%" set "PYTHON=python"
 
